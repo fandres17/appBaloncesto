@@ -13,6 +13,7 @@ admin.site.register(Partido)
 admin.site.register(Preinscripcion)
 admin.site.register(User)
 
+#jjjjjjg
 
 
 

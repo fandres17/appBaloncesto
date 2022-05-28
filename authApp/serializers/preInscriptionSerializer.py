@@ -5,4 +5,4 @@ class PreinscripcionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Preinscripcion
         fields = ['nombreEquipo', 'correo_electronico', 'ciudad', 'nombre_encargado',
-            'apellido_encargado', 'telefono_encargado']
+            'apellido_encargado', 'telefono_encargado', 'fecha_preinscripcion']

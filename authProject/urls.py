@@ -7,4 +7,5 @@ urlpatterns = [
     path('user/', views.UserCreateView.as_view()),
     path('user/<int:pk>/', views.UserDetailView.as_view()),
     path('preinscription/', views.preinscriptionView.as_view()),
+    path('results/', views.MatchesResultListView.as_view()),
 ]

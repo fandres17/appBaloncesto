@@ -1,3 +1,4 @@
 from .accountSerializer import AccountSerializer
 from .userSerializer import UserSerializer
 from .preInscriptionSerializer import PreinscripcionSerializer
+from .matchResultSerializer import MatchResultSerializer

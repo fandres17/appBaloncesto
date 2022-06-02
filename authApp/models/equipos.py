@@ -5,3 +5,6 @@ class Equipo(models.Model):
     nombreEquipo = models.CharField('NombreEquipo', max_length = 30)
     ciudad = models.CharField('Ciudad', max_length = 30)
     correo_electronico = models.EmailField(max_length = 254)
+
+    def __str__(self) -> str:
+        return '%s' % (self.nombreEquipo)
